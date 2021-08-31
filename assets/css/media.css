@@ -1,0 +1,75 @@
+@media (max-width: 900px) {
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    h5, h6{
+        font-size: 15px !important;
+    }
+    p , a , li , button {
+        font-size: 11px !important;
+    }
+    .navbar .contact{
+        display: none;
+    }
+    .navbar .top-nav{
+        padding:  0 0 10px 0px;
+    }
+    .navbar .top-nav .top-nav-content {
+        flex-direction: column-reverse !important;
+    }
+    .navbar .top-nav .top-nav-content , footer .content{
+        justify-content: center  !important;
+    }
+    .navbar .top-nav .top-nav-content , footer .content ul{
+        padding: 20px 0px 0px 0px;
+    }
+    .navbar .top-nav .top-nav-content .content-items{
+        width: 100%;
+    }
+    .navbar .bottom-nav{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 120px;
+        right: -100%;
+        border-radius: 0px !important;
+        transition: all 300ms linear;
+        background: #fff !important;
+    }
+    .navbar .bottom-nav .nav-content .data-content li a ,
+    .navbar .bottom-nav .nav-content .socail-network li a i{
+        color: #000;
+    }
+    .active-nav{
+        right: 0 !important;
+    }
+    .navbar .navbar-toggler{
+        display: block !important;
+    }
+    .navbar .bottom-nav .nav-content .data-content ,
+    .navbar .bottom-nav .nav-content{
+        flex-direction: column;
+    }
+    .navbar .bottom-nav .nav-content .data-content li {
+        margin: 10px 0px;
+    }
+    .navbar .top-nav .call-number{
+        flex-direction: row;
+    }
+    .navbar .top-nav .call-number p{
+        margin: 0px 10px;
+    }
+    header::before{
+        display: none;
+    }
+    .navbar{
+        z-index: 9999 !important;
+    }
+    .about-us .image-content ,
+    .prices .image-content { 
+        height: 220px;
+    }
+}
